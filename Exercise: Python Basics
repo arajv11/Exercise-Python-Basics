@@ -1,4 +1,51 @@
+# Task 1: Variable Declaration and Data Types
+# Variable declaration
 integer_var = 12
 float_var = 3.4
 string_var = "5"
 boolean_var = True
+# Print values of variables above and their data types
+print(integer_var, type(integer_var))
+print(float_var, type(float_var))
+print(string_var, type(string_var))
+print(boolean_var, type(boolean_var))
+
+
+# Task 2: String Manipulation
+# Create string variable
+string_var = "canVAS"
+# Use methods on the string
+print(string_var.title())
+print(string_var.swapcase())
+print(string_var.lower())
+
+
+# Task 3: Basic Operations
+# Declare two number variables
+num_1 = 7
+num_2 = 3
+# Apply arithmetic operations
+print(num_1 + num_2, num_1 - num_2, num_1 * num_2)
+print(num_1 / num_2, num_1 % num_2, num_1 ** num_2)
+# Apply comparison operations
+print(num_1 > num_2, num_1 < num_2, num_1 == num_2)
+print(num_1 != num_2, num_1 >= num_2, num_1 <= num_2)
+# Apply logical operations
+print(num_1 > num_2 and num_1 < num_2)
+print(num_1 == num_2 or num_1 != num_2)
+print(not(num_1 <= num_2))
+
+
+# Task 4: Data Collections
+# Declare data structures
+list_var = ["zoom", 2]
+dictionary_var = {4:5, 6:1}
+tuple_var = (8, 9, 8)
+# Access and print specific elements from each
+print(list_var[0])
+print(dictionary_var[6])
+print(tuple_var[2])
+
+
+# Task 5: Expression Combination
+print(num_1 > (num_1 * num_2) - (num_1 + num_2))
